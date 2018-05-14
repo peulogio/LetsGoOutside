@@ -1,0 +1,32 @@
+.modal-dialog{
+    width: 1024px;
+}
+h1 {
+    font-family: "Mukta", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+h4 {
+    font-family: "Mukta", sans-serif;
+    font-size: 30px;
+}
+
+.card-header {
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+#exampleModalLongTitle {
+    text-align: center;
+}
+h5 {
+    font-family: "Mukta", sans-serif;
+    font-size: 26spx;
+}
