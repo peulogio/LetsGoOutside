@@ -8,6 +8,13 @@ h5{
     font-family: 'Mukta', sans-serif;
 }
 
+
+/* not working right now, fixed inline */
+/* .jumbotron .h1 {
+  font-size: 4rem;
+  font-weight: 800;
+} */
+
 p{
     font-family: 'Raleway', sans-serif;
 }
@@ -36,4 +43,24 @@ p{
     height: 60px;
     line-height: 60px;
     background-color: #f5f5f5;
+}
+
+/* table styles */
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
 }
