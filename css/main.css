@@ -44,6 +44,9 @@ a:hover {
     color: #fff;
   }
 
+  .fa {
+      
+  }
   
 
   /* Explore Page */
@@ -53,7 +56,7 @@ a:hover {
   }
 
   .mountains {
-    background-image: url("https://commons.wikimedia.org/wiki/File:Crystal_cove_state_park_2.jpg");
+    background-image: url("images/fields.jpg");
     background-size: cover;
     margin-top: 5rem;
     height: 50vh;
@@ -97,30 +100,25 @@ a:hover {
     margin-top: 10rem;
 }
 
-  /* Trail Page */
 
+
+
+  /* Trail Page */
 
   /* Carousel Styles */
 
+  .carousel-inner img {}
 
   .carousel-slide {
       height: 50rem;
   }
 
-  .hero,
-  .mountains {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50vh;
-    color: #fff;
+  .hero {
+      background-image: url("");
+      background-size: cover;
+      height: 50vh;
+      color: #fff;
       
-  }
-
-  .stat {
-      font-weight: bold;
-      font-size: 3rem; 
   }
 
   .jumbotron .container {
@@ -129,6 +127,10 @@ a:hover {
 
   /* Accordian Styling */
 
+  #accordian {
+      
+    
+  }
   
   .card-header h5 {
     color: #68829E;
@@ -226,7 +228,6 @@ p{
 }
 
 /* table styles */
-
 table {
   border-spacing: 0;
   width: 100%;
@@ -239,7 +240,7 @@ th {
 
 th, td {
   text-align: left;
-  padding: 2rem;
+  padding: 16px;
 }
 
 tr:nth-child(even) {
