@@ -13,17 +13,16 @@
 
 
     <link id="mainStyles" rel="stylesheet" media="screen" href="style.css">
-    <link rel="stylesheet" media="screen" href="css/main.css"
-
-
-    <!--Google Fonts-->
+    <link rel="stylesheet" media="screen" href="css/main.css" <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Mukta:700|Raleway" rel="stylesheet">
 
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <title>Let's Got Outside</title>
 
@@ -34,289 +33,204 @@
 
 <body>
     <!--Start NavBar-->
-    <nav id="navbar-primary" class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
-        <div class="container-fluid">
 
-            <div class="m-auto">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">EXPLORE</a>
-                    </li>
-                    <li>
-                        <a href="#">TOOL TIPS</a>
-                    </li>
-                    <li>
-                        <<a class="navbar-brand" href="#">Irvine Ranch Natural Landmarks</a>
-                    </li>
-                    <li>
-                        <a href="#">VOLUNTEER</a>
-                    </li>
-                    <li>
-                        <a href="#">ABOUT</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+        <a href="/" class="navbar-brand d-flex w-50 mr-auto"></a>
 
-                    </li>
-                </ul>
-            </div>
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse w-100" id="navbar">
+
+            <ul class="navbar-nav w-100 d-flex align-items-center justify-content-center">
+                <li class="navbar-item">
+                    <a class="nav-link" href="explore.html">EXPLORE</a>
+                </li>
+                <li class=" nav-item" style="white-space:nowrap">
+                    <a class="nav-link" href="#">TRAIL TIPS</a>
+                </li>
+                <li class="navbar-item col-8">
+                    <a class="nav-link" href="#">
+                        <img src="images/logo1.png" width="100%" alt="Irvine Ranch Natural Landmarks">
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">VOLUNTEER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/irlandmarks" target="blank">
+                        <i class="fa fa-facebook-f fa-lg" style="color:#e8e8e8"></i>
+                    </a>
+                    <a href="https://twitter.com/IRLandmarks" target="_blank">
+                        <i class="fa fa-twitter fa-lg" style="color:#e8e8e8"></i>
+                    </a>
+                    <a href="https://www.flickr.com/photos/irconservancy" target="_blank">
+                        <i class="fa fa-flickr fa-lg" style="color:#e8e8e8"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/IRNaturalLandmarks" target="_blank">
+                        <i class="fa fa-youtube fa-lg" style="color:#e8e8e8;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa fa-search fa-lg" style="color: #e8e8e8; padding: 0 30px;"></i>
+                </li>
+            </ul>
         </div>
-
-    
-        <a href="https://www.facebook.com/irlandmarks" target="blank">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-       
-          <a href="https://twitter.com/IRLandmarks" target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-
-          <a href="https://www.flickr.com/photos/irconservancy" target="_blank">
-            <i class="fa fa-flickr"></i>
-          </a>
-
-          <a href="https://www.youtube.com/user/IRNaturalLandmarks" target="_blank">
-            <i class="fa fa-youtube"></i>
-          </a>
-        
-   
-
     </nav>
     <!--End NavBar-->
 
 
-    <!-- Start Jumbotron-->
+    <!--Start Jumbotron-->
+    <div class="jumbotron jumbotron-fluid hero" id="homejumbo">
+        <video id="video-background" preload muted autoplay loop>
+            <source src="https://s3-us-west-2.amazonaws.com/ux-ui-project-files/LetsGoOutside.mp4" type="video/mp4">
+        </video>
+        <p class="ml-5" style="text-align: center">- Irvine Ranch Concervancy-</p>
 
-    <div class="jumbotron jumbotron-fluid hero">
-        <div class="container text-center">
-        <h3>- Explore The Land -</h3>
-        <h1 class="font-weight-bold display-2">CRYSTAL COVE</h1>
-        <h3>Newport Beach, CA</h3>
-        </div>
+        <h1 class="font-weight-bold display-2" style="text-align: center">LET'S GO OUTSIDE</h1>
+
+        <p class="ml-5" style="text-align: center">Natural Landmarks</p>
+
     </div>
+    <!--End Jumbotron-->
 
-    <!-- End Jumbotron -->
-
-
-    <!-- Image Slider -->
-
-        <!-- <div id="slides" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#slides" data-slide-to="0" class="active"></li>
-           
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="images/backpackers2.jpg">
-                <div class="carousel-caption">
-                    <h3>- Explore The Land -</h3>
-                    <h1 class="font-weight-bold display-2">CRYSTAL COVE</h1>
-                    <h5>Newport Beach, CA</h5>
-
-                </div>
-            </div> 
-           <div class="carousel-item">
-                    <img class="d-block w-100" src="images/dirtroad.jpg">
-            </div>
-            <div class="carousel-item">
-                    <img class="d-block w-100" src="images/fields.jpg">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-
-    </div> -->
-
-    <!--About Section-->
-
-    <div class="container-fluid padding">
-        <div class="row about justify-content-center">
-            <div class="col-8">
-                <h2 class="text-center">About Crystal Cove State Park</h2>
-                <div class="">
-                    <p>Three-and-a-half miles of beach and 2,791 acres of wooded canyons, 
-                    bluffs and trails in the backcountry make this jewel of the coast a true haven for protected habitat as well as outdoor enthusiasts.
-                
-                    Scuba divers, snorkelers, surfers, swimmers, mountain bikers, joggers, hikers and equestrians all find something to do here. Crystal Cove State Park also features historic cottages,
-                    perfect for a trip back in time to last-century on the Southern California Coast and unique beachfront dining at the Beachcomber cafe or Crystal Cove Shake Shack.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--Map-->
-
+    <!--masonry content-->
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-8">
-                    <img src="images/map.png" class="img-fluid" alt="Responsive image">
-            </div>
-        </div>
-    </div>
 
-    <!--Three Columns-->
+        <!--First row of content-->
+        <div class="row">
 
-    <div class="container-fluid stats">
-        <div class="row text-center">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h3>20 Miles</h3>
-                <p>Distance</p>
+            <div class="col-lg-6 col-12 card-group">
+                <div class="card bg-dark text-white" style="background: url(images/Agurrola.jpg) no-repeat;
+            background-size: cover;" alt="Agurrola Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Discover OC's National Natural Landmark</h4>
+                            <p class="card-text">Nearly 40,000 acres of open space on the historic Irvine Ranch have been designated a Natural
+                                Landmark by both the State of California and the U.S. Department of the Interior.</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        
-    
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h3>35' - 1000'</h3>
-                <p>Elevation</p>
-            </div>
-       
- 
-            <div class="col-sm-12 col-sm-6 col-md-4">
-                <h3>Easy - Strenuous</h3>
-                <p>Difficulty</p>
-            </div>
-        </div>
-    </div>
 
-    <!--Trail Routes-->
-
-    <div class="container-fluid padding">
-            <div class="row about justify-content-center">
-                <div class="col-8">
-                    <h2 class="text-center">Suggested Trail Routes</h2>
-                    <div class="text-center">
-                        <p>Times are approximate and are based on hiking. Your time may vary depending on your fitness level, weather conditions and time of year. 
-                        </p>
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card text-white bg-info">
+                    <div class="card-body">
+                        <h4 class="card-title">The Irvine Ranch Natural Landmarks offers a variety of outdoor experiences, thanks to an expansive
+                            group of partner organizations and agencies.</h4>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card bg-dark text-white" style="background: url(images/OrchardHills.jpg) no-repeat;
+            background-size: cover;" alt="Orchard Hills Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Thursday Morning Trek</h4>
+                            <p class="card-text">Join us for a challenging and beautiful adventure as we hike to the Hangman’s Tree Monument on
+                                Loma Ridge. Hike distance is 6 miles and affords fantastic views along the way, spanning
+                                the Pacific coastline, San Gabriel peaks and the Santa Ana Mountains. </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
+        <div class="row" style="height: 20px;"></div>
 
-
-    <!--Begin Difficulty Accordian-->
-
-    <div class="d-flex justify-content-center">
-    <div class="accordion w-50" id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link font-weight-bold text-success" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    EASY OUT AND BACK - MORO CANYON
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                        <p><b>Time:</b> 1 hour (approximate) <b>Elevation:</b> 35’-178’ <b>Distance:</b> 3.0 miles</p>
-
-                        <p>Details: Starting at the Ranger Station, walk downhill and turn left onto the dirt trail before the campground. 
-                        Continue on the dirt to the long bridge. Once you cross the bridge, you will be in beautiful Moro Canyon. Continue up the MORO CANYON Trail until you reach the junction with POLES and WEST CUT ACROSS. Turn around here and retrace your steps back to the Ranger Station.</p>
+        <!--Second Row of Content-->
+        <div class="row">
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card bg-dark text-white" style="padding:0px; background:url('images/LittleSycamore.jpg') no-repeat; background-size:cover;"
+                    alt="Little Sycamore Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Fitness Hike in Little Sycamore</h4>
+                            <p class="card-text">Raise your heart rate and your spirits on this difficult, strenuous and fast-paced, 4.8-mile
+                                hike (400-ft. elevation gain) over very steep, uneven terrain with Laguna Canyon Foundation
+                                volunteers.
+                            </p>
+                        </div>
+                    </a>
                 </div>
-              </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed font-weight-bold text-primary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    MODERATE LOOP TRAIL - NO DOGS, POLES, MORO CANYON
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed font-weight-bold text-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    DIFFICULT LOOP TRAIL - MORO CANYON, EAST CUT ACROSS, MORO RIDGE, BFI
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingFour">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed font-weight-bold text-danger" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    STRENUOUS LOOP TRAIL - PARK PERIMETER
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-    <!--Diffuclty Accordian End-->
-
-
-    <!--New & Events-->
-
-     <div class="container-fluid padding">
-            <div class="row justify-content-center">
-                <div class="col-8">
-                    <h2 class="text-center">News &amp; Events</h2>
-                    <div class="">
-                        
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card text-white bg-dark">
+                    <div class="card-body">
+                        <h4 class="card-title">The Irvine Ranch Concervancy Farm Stewards are invited to help out at this “openhouse style” workday.
+                            Not a Farm Steward yet? To get started on becoming one, get signed up!</h4>
+                        <a href="#" class="btn btn-primary">Get Trained</a>
                     </div>
                 </div>
             </div>
-        </div>
 
-    <div class="container">
-        <div class="row news justify-content-center">
-            <div class="col-lg-5">
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/405x333"></a>
-            </div>
-            <div class="newsContent col-md-12 col-lg-6">
-                <h2>New Drone Regulation</h2>
-                <p class="subTitle">Attention for drone users about new rules implemented in 2018.</p>
-                <p class="font-weight-bold">News</p>
-                <p>June 1, 2018</p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row news justify-content-center">
-            <div class="col-lg-5">
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/405x333"></a>
-            </div>
-            <div class="newsContent col-md-12 col-lg-6">
-                <h2>New Drone Regulation</h2>
-                <p class="subTitle">Attention for drone users about new rules implemented in 2018.</p>
-                <p class="font-weight-bold">News</p>
-                <p>June 1, 2018</p>
+            <div class="col-lg-6 col-12 card-group">
+                <div class="card bg-dark text-white" style="padding:0px; background: url(images/QuailHill.jpg) no-repeat;
+            background-size: cover;" alt="Quail Hill Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Wee Wonder Walks</h4>
+                            <p class="card-text">
+                                Nature provides us with many tasty treats. Learn which plants are yummy for our tummies as we taste a few of these scrumptious
+                                natural treats. After your snack time, we will stroll through the trails to search for what
+                                the animals eat! Family friendly for ages 2-6 years of age.</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row news justify-content-center">
-            <div class="col-lg-5">
-                <a href="https://placeholder.com"><img src="http://via.placeholder.com/405x333"></a>
+        <div class="row" style="height: 20px;"></div>
+
+        <!--Third Row of Content-->
+        <div class="row">
+            <div class="col-lg-6 col-12 card-group">
+                <div class="card bg-dark text-white" style="background: url(images/BommerCanyon.jpg) no-repeat;
+                background-size: cover;" alt="Bommer Canyon Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Mountain Bike in Bommer Canyon</h4>
+                            <p class="card-text">This moderate-paced mountain bike tour through the picturesque hills of Bommer and Shady Canyons
+                                includes a combination of ranch roads and multiple intermediate and advanced level technical
+                                single-track trails, with many steep climbs and descents.</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="newsContent col-md-12 col-lg-6">
-                <h2>New Drone Regulation</h2>
-                <p class="subTitle">Attention for drone users about new rules implemented in 2018.</p>
-                <p class="font-weight-bold">News</p>
-                <p>June 1, 2018</p>
+
+
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card text-white bg-info">
+                    <div class="card-body">
+                        <h4 class="card-title">Bats are heroes of the night. Come hear fascinating tales and head out towards a popular roosting
+                            location to enjoy watching the bats fly about.</h4>
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-12 card-group">
+                <div class="card bg-dark text-white" style=" background: url(images/Fremont.jpg) no-repeat;
+            background-size: cover;" alt="Fremont Trail">
+                    <a href="#">
+                        <div class="card-img-overlay" id="card1">
+                            <h4 class="card-title">Twilight Hike</h4>
+                            <p class="card-text">Enjoy a challenging scenic twilight hike in the remote Fremont Canyon Nature Preserve. Our hike
+                                climbs steeply from the mouth of Fremont Canyon, past an abandoned coal mine, up to the Fremont
+                                Weather Station where winds have been clocked at up to 100 mph. </p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -324,29 +238,40 @@
 
 
     <!--Footer-->
-    
+
 
     <footer class="footer">
-            <div class="container">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <span class="text-muted" style="font-size: 0.8rem;">
+                        © 2018 Irvine Ranch Conservancy. All rights reserved | 4727 Portola Pkwy. Irvine, CA 92620 | 714-508-4757 | info@irconservancy.org
+                    </span>
+                </div>
+                <div class="col-2">
                     <a href="https://www.facebook.com/irlandmarks" target="blank">
-                            <i class="fa fa-facebook-f"></i>
-                          </a>
-                       
-                          <a href="https://twitter.com/IRLandmarks" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                          </a>
+                        <i class="fa fa-facebook-f fa-lg"></i>
+                    </a>
 
-                          <a href="https://www.flickr.com/photos/irconservancy" target="_blank">
-                            <i class="fa fa-flickr"></i>
-                          </a>
+                    <a href="https://twitter.com/IRLandmarks" target="_blank">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
 
-                          <a href="https://www.youtube.com/user/IRNaturalLandmarks" target="_blank">
-                            <i class="fa fa-youtube"></i>
-                          </a>
-                       
-              <span class="text-muted">Place sticky footer content here.</span>
+                    <a href="https://www.flickr.com/photos/irconservancy" target="_blank">
+                        <i class="fa fa-flickr fa-lg"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/user/IRNaturalLandmarks" target="_blank">
+                        <i class="fa fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+
+
             </div>
-          </footer>
+
+        </div>
+    </footer>
 
     <!--Java script-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
