@@ -252,26 +252,207 @@ table {
     color: #e8e8e8;
 }
 
-#video-background{ 
-    position: absolute;
-    height: auto;
-    width: auto;
-    width: 100%;
-    left: 50%;
-    top: 17%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -50%, 0);
-    z-index: -1;
-  }
+
 
   #homejumbo{
     object-fit: cover;
     overflow: hidden;
     background-color: transparent;
-    min-height: 450px;
   }
 
-  /* Home Page Media Queries */
-  @media (max-width:1024px){
-      
-  }
+
+  .min-hide {
+    display:inline-block;   
+}
+
+.min-logo {
+    display: inline-block;
+}
+
+@media (max-width: 576px){
+    #video-background{
+        z-index: -1;
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 20%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+    .jumbotron{
+        max-height: 220px;
+    }
+    
+    .min-hide {
+        display:none;   
+    }
+    .min-logo {
+        display: none;
+    }
+    .jumbotron-text {
+        font-size: .8rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 2.0rem;
+    }
+    .foot-in{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) { 
+    #video-background{
+        z-index: -1;
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 30%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    .min-hide {
+        display:none;   
+    }
+    .min-logo {
+        display: none;
+    }
+    .jumbotron-text {
+        font-size: .8rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 2.0rem;
+    }
+    .foot-in{
+        display: none;
+    }
+ }
+
+@media (min-width: 768px) and (max-width:991px) { 
+    #video-background{
+        z-index: -1;
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 15%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+    .jumbotron{
+        max-height: 300px;
+    }
+    .min-hide {
+        display:none;   
+    }
+    .min-logo {
+        display: none;
+    }
+    .jumbotron-text {
+        font-size: 1.0rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 3.0rem;
+    }
+ }
+
+@media (min-width: 992px) and (max-width:1024px) { 
+    #video-background{
+        z-index: -1;
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 5%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+    
+    #homejumbo{
+        min-height: 450px;
+    }
+    #video-background{ 
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 17%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        z-index: -1;
+      }
+
+      .jumbotron-text {
+        font-size: 1.2rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1199px) {
+    #homejumbo{
+        min-height: 450px;
+    }
+    #video-background{ 
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top: 27%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        z-index: -1;
+      }
+      .jumbotron-text {
+        font-size: 1.4rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    #homejumbo{
+        min-height: 450px;
+    }
+    #video-background{ 
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top:18%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        z-index: -1;
+      }
+
+      .jumbotron-text {
+        font-size: 1.6rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 7.0rem;
+    }
+
+}
