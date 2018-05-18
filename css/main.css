@@ -1,5 +1,9 @@
 
 /* Font Styles */
+body {
+    font-size: 16px;
+}
+
 h1,
 h2,
 h3,
@@ -11,7 +15,8 @@ h5{
 
 p{
     font-family: 'Raleway', sans-serif;
-    line-height: 1.9rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
 }
 
 /* Global Styles */
@@ -34,8 +39,13 @@ a:hover {
    }
 } */
 
+.bg-trails-black {
+    background-color: black;
+}
+
 
   /* Footer Styles */
+
   .footer {
     position: absolute;
     width: 100%;
@@ -88,7 +98,8 @@ a:hover {
 /* Card Styles */
 
 .card-text {
-    line-height: 1.7rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
 }
 
 .trailFilter {
@@ -97,13 +108,31 @@ a:hover {
 
   /* Trail Page */
 
+  /* Shadow */
+
+  /* .areaMap{
+	-moz-box-shadow:    0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+    box-shadow:         0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+
+}
+
+  .newsImage img {
+    -moz-box-shadow:    0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+    box-shadow:         0px 3px 13px -13px rgba(0, 0, 0, 1), 0px 3px 12px 0px rgba(0, 0, 0, 0.18);
+  } */
+
+
+
+.share {
+     background-color: #BA5536;
+     height: 40rem;
+     margin-top: 8rem;
+ }
 
   /* Carousel Styles */
 
-
-  .carousel-slide {
-      height: 50rem;
-  }
 
   .hero,
   .mountains {
@@ -119,6 +148,14 @@ a:hover {
   .stat {
       font-weight: bold;
       font-size: 3rem; 
+      margin-top: -2.7rem;
+  }
+
+  .statsSection {
+      background-color: #505160;
+      color: white;
+      height: 16rem;
+      
   }
 
   .jumbotron .container {
@@ -127,7 +164,6 @@ a:hover {
 
   /* Accordian Styling */
 
-  
   .card-header h5 {
     color: #68829E;
   }
@@ -140,6 +176,14 @@ a:hover {
 
   /* About Section */
 
+  /* .aboutSection {
+    background-color: #68829E;
+    color: white;
+    height: 30rem;
+    margin-top: -3.1rem;
+    margin-bottom: 2rem;
+} */
+
   .about p {
       padding-top: 3rem;
   }
@@ -148,6 +192,9 @@ a:hover {
       padding-top: 8rem;
   }
 
+  .ccMap {
+      width: 38rem;
+  }
 
   /* News */
 
@@ -156,12 +203,14 @@ a:hover {
   }
 
   .newsContent {
-      padding-top: 3.5rem;
+      padding-top: 2.7rem;
   }
 
   .newsContent .subTitle {
-      padding-bottom: 3rem;
+      padding-bottom: 1rem;
   }
+
+ 
   
 
   /* Footer Styles */
