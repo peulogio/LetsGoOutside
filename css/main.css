@@ -269,7 +269,14 @@ table {
   }
 
 
+/* Trails Page*/
+ .a#crystalCove {
+    color: #000;
+}
 
+a#crystalCove :hover{
+ color:#68829E;
+}
   
   
 
