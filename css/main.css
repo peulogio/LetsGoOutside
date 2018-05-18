@@ -532,3 +532,75 @@ table {
     }
 
 }
+
+/* van's stylesheet starts here  */
+.des {
+    width: 100%;
+    padding: 5% 20% 20% 5%;
+    background-color: #AEBD38;
+
+}
+.des p {
+    background: #BA5536;
+    text-align: justify;
+    width: 100%;
+}
+
+.tip-content {
+width: 100%;
+padding-left: 20%;
+padding-right: 20%;
+}
+
+.share-button {
+    width: 100%;
+   margin-bottom:50%;
+}
+
+.tip {
+    /* background-color: #BA5536; */
+    margin-top: 25px;
+}
+.tip-container {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.newh4 {
+    color: black;
+    font-family: "Mulkta", sans-serif;
+}
+
+.tip-container .card-text {
+    color: black;
+}
+
+.tip-container .card-title {
+    color: black;
+    font-family: "Mulkta", sans-serif;
+}
+.tip-container .card-header {
+    color: #fff;
+    background-color: #505160;
+    font-family: "Mulkta", sans-serif;
+    
+}
+
+.tip-container .btn-primary {
+    background-color: #BA5536;
+    border: #BA5536;
+}
+
+.tip-container .card {
+border-color: #505160;
+}
+#learn {
+    font-weight: bold;
+    color: #BA5536;
+}
+.btn-link {
+    text-decoration: underline;
+}
+/* van's stylesheet ends */
