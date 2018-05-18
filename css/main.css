@@ -592,7 +592,10 @@ padding-right: 20%;
     background-color: #BA5536;
     border: #BA5536;
 }
-
+.tip-container .btn-primary:hover{
+    background-color:#A43820;
+    border: #A43820;
+}
 .tip-container .card {
 border-color: #505160;
 }
