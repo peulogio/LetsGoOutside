@@ -1,7 +1,12 @@
 
 /* Font Styles */
-body {
+
+html {
     font-size: 16px;
+}
+
+body {
+    /* background-image: url("../images/topography.png"); */
 }
 
 h1,
@@ -39,6 +44,18 @@ a:hover {
    }
 } */
 
+.secondaryNav {
+    height: 5rem;
+    margin-top: -2.1rem;
+    padding-top: 1.2rem;
+    background-color: black;
+}
+
+.secondaryNav a {
+    color: white;
+}
+
+
 .bg-trails-black {
     background-color: black;
 }
@@ -72,7 +89,7 @@ a:hover {
 .headerbg {
     /* background-color: black; */
     height: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .headerbg2 {
@@ -141,8 +158,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     height: 50vh;
-    color: #fff;
-      
+    color: #fff;  
   }
 
   .stat {
@@ -152,11 +168,12 @@ a:hover {
   }
 
   .statsSection {
-      background-color: #505160;
+      background-color: #68829E;
       color: white;
       height: 16rem;
       
   }
+
 
   .jumbotron .container {
       margin-top: 5rem;
@@ -210,11 +227,15 @@ a:hover {
       padding-bottom: 1rem;
   }
 
- 
+ .upcomingBanner {
+     background-color: #AEBD38;
+     width: 100vw;
+ }
   
 
-  /* Footer Styles */
-  .footer {
+/* Footer Styles */
+
+.footer {
     position: absolute;
     margin-top: 5rem;
     width: 100%;
@@ -230,21 +251,27 @@ a:hover {
 table {
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: none;
   }
   
   th {
     cursor: pointer;
+    height: 4rem;
+    
   }
   
   th, td {
-    text-align: left;
-    padding: 2rem;
+    height: 3rem;
   }
   
   tr:nth-child(even) {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
   }
+
+
+
+  
+  
 
 
 /*Video Style*/
