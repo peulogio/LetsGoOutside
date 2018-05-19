@@ -48,11 +48,11 @@ a:hover {
     height: 5rem;
     margin-top: -2.1rem;
     padding-top: 1.2rem;
-    background-color: black;
+    background-color: #E8E8E8;
 }
 
 .secondaryNav a {
-    color: white;
+    color: rgb(138, 138, 138);
 }
 
 
@@ -164,7 +164,7 @@ a:hover {
   .stat {
       font-weight: bold;
       font-size: 3rem; 
-      margin-top: -2.7rem;
+      margin-top: 5rem;
   }
 
   .statsSection {
