@@ -540,6 +540,33 @@ a#crystalCove :hover{
 
 }
 
+@media (min-width: 1900px) { 
+    #homejumbo{
+        min-height: 450px;
+    }
+    #video-background{ 
+        position: absolute;
+        height: auto;
+        width: auto;
+        width: 100%;
+        left: 50%;
+        top:13%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+        z-index: -1;
+      }
+
+      .jumbotron-text {
+        font-size: 1.6rem;
+      }
+
+      .jumbotron-bold{
+        font-weight: 800;
+        font-size: 7.0rem;
+    }
+
+}
+
 /* van's stylesheet starts here  */
 .des {
     width: 100%;
